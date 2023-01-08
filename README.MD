@@ -6,11 +6,17 @@
 
 # figure
 |----------|      |---------------|      |------------------|
+
 |          |      |               |      |                  |
+
 | calling  | ---> | base contract | ---> | advaned contract |
+
 | contract |      | referrence    |      | entity           |
+
 |          |      |               |      |                  |
+
 |----------|      |---------------|      |------------------|
+
 
 # Conclusion
 - Using the base contract definition, I was able to successfully call the "advanced" contract's actual function.
